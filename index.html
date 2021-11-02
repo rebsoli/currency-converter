@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de moedas </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+    <h1 class="page-title">Conversor de moedas 2.0</h1>
+    <p class="page-subtitle">Converta para a euro, dólar ou libra</p>
+</header>
+<div class="container">
+    <input id="field" type="number" placeholder="Insira o valor desejado"><br>
+
+    <div>
+        <input type="radio" name="currencies" id="dollar" value="Dollar">
+        <label for="dollar">Dólar</label>
+        <input type="radio" name="currencies" id="euro" value="Euro">
+        <label for="euro">Euro</label>
+        <input type="radio" name="currencies" id="pound" value="Pound">
+        <label for="pound">Libra</label>
+    </div>
+
+    <button onclick="convert()" id="button" type="submit">Calcular</button>
+
+</div>
+
+<h2 id="result"></h2>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
