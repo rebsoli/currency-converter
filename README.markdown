@@ -1,5 +1,4 @@
 # Conversor de moedas 
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/rebs_oliveira7/pen/PojQdOK](https://codepen.io/rebs_oliveira7/pen/PojQdOK).
-
-
+Click here to see the finished product:
+https://rebsoli.github.io/currency-converter/
